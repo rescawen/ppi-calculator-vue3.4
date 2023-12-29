@@ -20,6 +20,17 @@ import HelloWorld from './components/HelloWorld.vue'
   <RouterView />
 </template>
 
+<!-- <template lang="pug">
+header
+  img.logo(alt="Vue logo", src="@/assets/logo.svg", width="125", height="125")
+  div.wrapper
+    HelloWorld(msg="You did it!")
+    nav
+      RouterLink(to="/") Home
+      RouterLink(to="/about") About
+  RouterView
+</template> -->
+
 <style scoped>
 header {
   line-height: 1.5;
